@@ -1,0 +1,119 @@
+{
+  "theme": "light",
+  "typography": {
+    "fonts": {
+      "headings": "Outfit, sans-serif",
+      "body": "Manrope, sans-serif"
+    },
+    "scale": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight font-semibold",
+      "h2": "text-3xl sm:text-4xl tracking-tight font-semibold",
+      "h3": "text-xl sm:text-2xl font-medium",
+      "h4": "text-lg sm:text-xl font-medium",
+      "body": "text-base leading-relaxed text-gray-700",
+      "small": "text-sm text-gray-500"
+    }
+  },
+  "colors": {
+    "primary": "#1E3F20",
+    "primary_hover": "#142A15",
+    "background": "#FAFAF8",
+    "surface": "#FFFFFF",
+    "surface_secondary": "#F0F0EA",
+    "text_main": "#1A1C1A",
+    "text_muted": "#5C635A",
+    "accent_earth": "#B47A5A",
+    "border": "#E5E5E0"
+  },
+  "layout_and_spacing": {
+    "section_padding": "py-16 md:py-24 lg:py-32",
+    "container": "max-w-7xl mx-auto px-6 md:px-12",
+    "border_radius": {
+      "cards": "rounded-2xl",
+      "buttons": "rounded-lg",
+      "images": "rounded-2xl"
+    },
+    "shadows": {
+      "subtle": "shadow-[0_8px_30px_rgb(0,0,0,0.04)]",
+      "card_hover": "shadow-[0_20px_40px_rgb(0,0,0,0.08)]"
+    }
+  },
+  "visual_enhancers": {
+    "animations": "Subtle fade-in and slide-up on scroll using framer-motion. No complex 3D or heavy motion. Smooth button hover states (color transitions).",
+    "glassmorphism": "Sticky header MUST use bg-white/80 backdrop-blur-md. No fully transparent headers.",
+    "borders": "Use subtle borders (border-[#E5E5E0]) for cards, combined with subtle shadows."
+  },
+  "sections": [
+    {
+      "name": "Header",
+      "details": "Sticky header (z-50), bg-white/90 backdrop-blur-md, border-b border-gray-100. Logo text 'Groen & Buiten Hoveniers'. Links: Diensten, Over ons, Projecten, Reviews, Contact. CTA button 'Offerte aanvragen'. Mobile hamburger menu."
+    },
+    {
+      "name": "Hero",
+      "details": "Large background tuinfoto (h-[80vh] or min-h-[600px]). Overlay: bg-black/40 (ensure text readability). Headline: 'Uw tuin, professioneel aangelegd en onderhouden.' in white. Dual CTA: Primary ('Offerte aanvragen') in primary green, Secondary ('Onze diensten') as white outline button."
+    },
+    {
+      "name": "USP Bar",
+      "details": "Placed just below or overlapping hero. 4 items grid (1 col mobile, 2 tablet, 4 desktop). Background: surface_secondary (#F0F0EA). Icons using lucide-react (e.g., Leaf, ShieldCheck, ThumbsUp, Clock) in primary green. Titles like 'Vakkundig', 'Persoonlijk', 'Duurzaam', 'Betrouwbaar'."
+    },
+    {
+      "name": "Diensten (Services)",
+      "details": "Section title 'Van ontwerp tot onderhoud'. Grid of 4 cards (1 col mobile, 2 col desktop). Each card has a photo at the top (aspect-video, rounded-t-2xl), title, short description, and subtle 'Lees meer' link. Cards have white bg, subtle shadow, and rounded-2xl."
+    },
+    {
+      "name": "Over ons (About us)",
+      "details": "2-column layout. Left: high-quality image of landscaper at work (rounded-2xl). Right: Text 'Over ons', heading 'Uw lokale expert in groen', compact paragraphs about passion and reliability."
+    },
+    {
+      "name": "Projecten (Portfolio)",
+      "details": "Section title 'Onze Projecten'. Asymmetric bento grid of 3 large images. 1 large image on the left spanning 2 rows, 2 smaller images stacked on the right. All images rounded-2xl with object-cover."
+    },
+    {
+      "name": "Reviews",
+      "details": "Section title 'Wat onze klanten zeggen'. 3 testimonial cards in a 3-col grid. White bg, subtle shadow, quote icon, short text, customer name and location (e.g., 'Amsterdam')."
+    },
+    {
+      "name": "CTA Section",
+      "details": "Banner style. Background: surface_secondary (#F0F0EA). Heading 'Ook plannen voor uw tuin?'. Includes a clear call option with phone icon and a primary button."
+    },
+    {
+      "name": "Contact",
+      "details": "2-column layout. Left: Contact details (Address, Phone, Email) with lucide icons. Right: Contact form using Shadcn UI (Name, Email, Phone, Message, Submit button). Form inputs should have rounded-lg."
+    },
+    {
+      "name": "Footer",
+      "details": "Background primary green (#1E3F20), white text. Logo text, quick links, copyright. Subtle 'DEMO WEBSITE' text with opacity 50% marking."
+    }
+  ],
+  "image_urls": {
+    "hero": "https://images.unsplash.com/photo-1668120089662-42642838cfef?auto=format&fit=crop&w=2000&q=80",
+    "about_us": "https://images.pexels.com/photos/5163429/pexels-photo-5163429.jpeg?auto=format&fit=crop&w=1000&q=80",
+    "projects": [
+      "https://images.unsplash.com/photo-1719324923613-ff0884b031ed?auto=format&fit=crop&w=1000&q=80",
+      "https://images.unsplash.com/photo-1775733924075-11e542629502?auto=format&fit=crop&w=1000&q=80",
+      "https://images.pexels.com/photos/16938572/pexels-photo-16938572.jpeg?auto=format&fit=crop&w=1000&q=80"
+    ],
+    "services": {
+      "tuinaanleg": "https://images.unsplash.com/photo-1597201278257-3687be27d954?auto=format&fit=crop&w=800&q=80",
+      "tuinonderhoud": "https://images.pexels.com/photos/32427439/pexels-photo-32427439.jpeg?auto=format&fit=crop&w=800&q=80",
+      "tuinontwerp": "https://images.pexels.com/photos/35115306/pexels-photo-35115306.jpeg?auto=format&fit=crop&w=800&q=80",
+      "bestrating": "https://images.unsplash.com/photo-1700689807667-82630348b301?auto=format&fit=crop&w=800&q=80"
+    }
+  },
+  "component_instructions": {
+    "buttons": "Primary button: bg-[#1E3F20] text-white hover:bg-[#142A15] transition-colors rounded-lg px-6 py-3. Secondary button: bg-white/10 text-white border border-white hover:bg-white hover:text-[#1E3F20] (for hero) or bg-white text-[#1E3F20] border border-[#1E3F20] hover:bg-[#F0F0EA] (for light sections).",
+    "inputs": "Use standard Shadcn UI inputs but customize with rounded-lg, border-[#E5E5E0], focus-visible:ring-[#1E3F20].",
+    "cards": "Use standard HTML/Tailwind divs instead of Shadcn Card component for marketing sections to allow more layout flexibility, unless it's a simple review card."
+  },
+  "UNIVERSAL_GUIDELINES_FOR_MAIN_AGENT": [
+    "All interactive elements MUST include data-testid attributes (e.g., data-testid='contact-submit-btn').",
+    "Use APCA contrast rules. Ensure high contrast for text. DO NOT use fully transparent backgrounds behind text (like a transparent header).",
+    "Use lucide-react for all icons.",
+    "Use framer-motion for scroll reveal animations (e.g., fade up, stagger children). Keep it subtle and professional.",
+    "Avoid generic centered text layouts unless it's a short hero headline or section title. Left-align dense content.",
+    "No emojis as icons.",
+    "Do not use 'transition: all' in CSS. Specify transition properties.",
+    "Ensure generous spacing: use py-16 to py-32 for section padding.",
+    "Make sure to load 'Outfit' and 'Manrope' fonts via Google Fonts in the HTML or global CSS."
+  ]
+}
